@@ -8,5 +8,5 @@ class TestPaginyHome(BaseTest):
         StronaStartowa(self.driver).zaloguj_sie_button()
 
 
-if __name__=="__main__":
-    unittest.main(verbosity=2)
+if __name__ == "__main__":
+    unittest.main(verbosity = 2)

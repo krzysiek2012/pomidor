@@ -1,4 +1,4 @@
-class Baza():
+class BazaPagina():
     """
     Klasa bazowa dla każdej strony
     """

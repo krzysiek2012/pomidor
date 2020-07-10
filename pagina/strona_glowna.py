@@ -1,13 +1,13 @@
-from pagina.baza_pagina import Baza
+from pagina.baza_pagina import BazaPagina
 from selenium.webdriver.support.ui import WebDriverWait
 from locators import DomowaStronaLocator
 from selenium.webdriver.support import expected_conditions as EC
 
 
-class StronaStartowa(Baza):
+class StronaStartowa(BazaPagina):
 
     def zaloguj_sie_button(self):
-    # Kliknij "ZALOGUJ SIE"
+        # Kliknij "ZALOGUJ SIE"
         self.driver.find_element(*DomowaStronaLocator.guzik_zaloguj).click()
 
     def _verify_page(self):
